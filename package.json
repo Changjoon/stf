@@ -39,7 +39,7 @@
     "@devicefarmer/adbkit-monkey": "^1.0.1",
     "android-device-list": "^1.2.1",
     "aws-sdk": "^2.4.13",
-    "basic-auth": "^1.0.3",
+    "basic-auth": "^2.0.1",
     "bluebird": "^2.10.1",
     "body-parser": "^1.13.3",
     "bufferutil": "^1.2.1",

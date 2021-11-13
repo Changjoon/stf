@@ -6,6 +6,11 @@
 
 **STF** (or Smartphone Test Farm) is a web application for debugging smartphones, smartwatches and other gadgets remotely, from the comfort of your browser.
 
+## Quick start
+```
+$ docker-compose up
+```
+
 ## Overview
 
 ![Close-up of device shelf](https://raw.githubusercontent.com/DeviceFarmer/stf/master/doc/shelf_closeup_790x.jpg)

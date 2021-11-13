@@ -4322,9 +4322,10 @@ highlight.js@~9.15.8:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
   integrity sha512-RoV7OkQm0T3os3Dd2VHLNMoaoDVx77Wygln3n9l5YV172XonWG6rgQD3XnF/BuFFZw9A0TJgmMSO8FEWQgvcXw==
 
-hipchatter@^0.3.1:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/hipchatter/-/hipchatter-0.3.2.tgz#7f529cb676884032b0756750556ce77123bec406"
+hipchatter@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hipchatter/-/hipchatter-1.0.0.tgz#94ee693ffe087a789de0e20570211b01b614178f"
+  integrity sha1-lO5pP/4Ienid4OIFcCEbAbYUF48=
   dependencies:
     async "~0.2.9"
     needle "^1.0.0"

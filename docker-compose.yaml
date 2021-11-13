@@ -13,8 +13,8 @@ services:
     container_name: adb
     image: devicefarmer/adb:latest
     restart: unless-stopped
-    volumes: 
-      - "/dev/bus/usb:/dev/bus/usb"
+    devices:
+      - "/dev/bus/usb/001"
     privileged: true
 
   stf:
@@ -27,10 +27,10 @@ services:
     environment:
       - TZ='America/Los_Angeles'
       - RETHINKDB_PORT_28015_TCP=tcp://rethinkdb:28015
-      - STF_ADMIN_EMAIL=<YOUR_EMAIL>
-      - STF_ADMIN_NAME=<YOUR_NAME>
+      - STF_ADMIN_EMAIL=admin@fakedomain.com
+      - STF_ADMIN_NAME=admin
     restart: unless-stopped
-    command: stf local --adb-host adb --public-ip YOUR_IP --provider-min-port 7400 --provider-max-port 7500
+    command: stf local --adb-host adb --public-ip 10.11.106.106 --provider-min-port 7400 --provider-max-port 7500
 
 volumes:
   rethinkdb-data: {}
